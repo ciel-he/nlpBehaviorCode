@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="394faea7-6eef-4b18-8be8-11c268d6b97d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorToRight.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2368">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorRules.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理之后.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="193" column="7" lean-forward="true" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="190" column="5" lean-forward="true" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/handleError.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="e#24#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4Data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="470" selection-start-line="470" selection-end-line="470" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/方式一结果.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4822">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/方式二结果.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/error_behaviors.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4文本.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="469" lean-forward="true" selection-end-line="471" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>上道路行驶</find>
+      <find>在夜间超车</find>
+      <find>,</find>
+      <find>40</find>
+      <find>观察</find>
+      <find>文明驾驶</find>
+      <find>登记</find>
+      <find>机动车在抵押登记</find>
+      <find>对方</find>
+      <find>驾驶汽车驶近停有公交车的车站需要注意做好随时停车的准备</find>
+      <find>情况</find>
+      <find>状况</find>
+      <find>驶入高速公路收费口应减速慢行</find>
+      <find>?</find>
+      <find>若</find>
+      <find>夜间在没有中心隔离设施或者没有中心线的道路上行驶</find>
+      <find>刮水器无法改善驾驶人视线</find>
+      <find>^\n</find>
+      <find>多鸣喇叭是为了引起对方注意</find>
+      <find>急踏</find>
+      <find>机动车在抵押登记、质押备案期间不可以办理转移登记。</find>
+      <find>汽车各轮胎气压不一致时</find>
+      <find>切忌</find>
+      <find>抱死</find>
+      <find>大雾天行车</find>
+      <find>转移登记</find>
+      <find>英雄</find>
+      <find>更重要的是让其他交通参与者能够观察到我方车辆</find>
+      <find>与对向机动车会车时</find>
+      <find>x</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>safeResult</replace>
+      <replace>userdict</replace>
+      <replace>initByType</replace>
+      <replace>不能</replace>
+      <replace>write_error_file</replace>
+      <replace>，</replace>
+      <replace>x</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="he123 &lt;1195941056@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/mysqlTest.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/__init__.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/settings.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/roleTagRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/forceSegmentor.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/wordTagsAfterTreat.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/usertag.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/myLtpTool.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/view.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getConditionsAndBehaviors.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/models.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/db_crud.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getConAndBehByKT.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getConAndBehBySafe.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/test.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/concatTxt.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getConAndBehByTK.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/filterRoleTag.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/roleTagRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/noUseWords.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/conditions.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/结果（规则二）.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/conditionsTK.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/userdict.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/结果二统计.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/二统计.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/结果初版本.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/resultRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/resultRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1.json" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/dataFilter.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/txtForTag.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getRegxFromText.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/getConditionAndBehavior.py" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/safeData/trafficRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/errorToRight.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/错误标注处理之后.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/方式二结果.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/behaviors.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/error_conditions.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/errorRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/utils/error_behaviors.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/filter_key_words_1" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/filter_key_words_4" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理之后.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4文本.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorRules.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorToRight.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4Data.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理.txt" />
+        <option value="$PROJECT_DIR$/behaviorNLP/nlp/handleError.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzeResult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="analyzeResult" type="462c0819:PsiDirectoryNode" />
+              <item name="tkResult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="safeData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="tkData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behaviorNLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviorNLP" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\NLP-relative\project\code\behaviorNLP\behaviorNLP" />
+      <recent name="F:\NLP-relative\project\code\behaviorNLP" />
+      <recent name="F:\NLP-relative\project\code\behaviorNLP\behaviorNLP\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\NLP-relative\project\ExperimentCode\behaviorNLP\behaviorNLP\nlp\analyzeResult\tkResult" />
+      <recent name="F:\NLP-relative\project\ExperimentCode\behaviorNLP\behaviorNLP\nlp\analyzeResult\safeResult" />
+      <recent name="F:\NLP-relative\project\ExperimentCode\behaviorNLP\behaviorNLP\nlp\utils" />
+      <recent name="F:\NLP-relative\project\ExperimentCode\behaviorNLP\behaviorNLP\nlp\tkData" />
+      <recent name="F:\NLP-relative\project\code\behaviorNLPBack\behaviorNLP\nlp\analyzeResult\safeResult" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.handleError">
+    <configuration name="dataFilter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/behaviorNLP/nlp/tkData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/dataFilter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handleError" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/behaviorNLP/nlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/behaviorNLP/nlp/handleError.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysqlTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="behaviorNLP.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/behaviorNLP/nlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/behaviorNLP/nlp/mysqlTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/behaviorNLP/nlp/tkData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/behaviorNLP/nlp/tkData/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="txtForTag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/behaviorNLP/nlp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/behaviorNLP/nlp/txtForTag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="behaviorNLP" type="Python.DjangoServer" factoryName="Django server">
+      <module name="behaviorNLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="behaviorNLP.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\MySoftFile\Python3.5\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.behaviorNLP" />
+      <item itemvalue="Python.txtForTag" />
+      <item itemvalue="Python.dataFilter" />
+      <item itemvalue="Python.mysqlTest" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.handleError" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.handleError" />
+        <item itemvalue="Python.txtForTag" />
+        <item itemvalue="Python.dataFilter" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.mysqlTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="394faea7-6eef-4b18-8be8-11c268d6b97d" name="Default Changelist" comment="" />
+      <created>1572329888913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572329888913</updated>
+      <workItem from="1572329893341" duration="12096000" />
+      <workItem from="1572404199945" duration="20244000" />
+      <workItem from="1572834452721" duration="35995000" />
+      <workItem from="1573005922290" duration="31558000" />
+      <workItem from="1574139993235" duration="53737000" />
+      <workItem from="1574756077094" duration="12031000" />
+      <workItem from="1574898898992" duration="26307000" />
+    </task>
+    <task id="LOCAL-00001" summary="对safe标注做了筛选，之后在这个基础上写入数据库">
+      <created>1572872761375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572872761376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191968000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.24583964" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.26439393" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26557377" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32786885" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3262295" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.2624811" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.26439393" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34918034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294509" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.327787" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32954547" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="对safe标注做了筛选，之后在这个基础上写入数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="对safe标注做了筛选，之后在这个基础上写入数据库" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/behaviorNLP$test.coverage" NAME="test Coverage Results" MODIFIED="1574141958005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp/tkData" />
+    <SUITE FILE_PATH="coverage/behaviorNLP$handleError.coverage" NAME="handleError Coverage Results" MODIFIED="1574934932146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp" />
+    <SUITE FILE_PATH="coverage/behaviorNLP$txtForTag.coverage" NAME="txtForTag Coverage Results" MODIFIED="1574925879881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp" />
+    <SUITE FILE_PATH="coverage/behaviorNLPBack$mysqlTest.coverage" NAME="mysqlTest Coverage Results" MODIFIED="1572839996951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp" />
+    <SUITE FILE_PATH="coverage/behaviorNLP$dataFilter.coverage" NAME="dataFilter Coverage Results" MODIFIED="1574925542538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp/tkData" />
+    <SUITE FILE_PATH="coverage/behaviorNLPBack$txtForTag.coverage" NAME="txtForTag Coverage Results" MODIFIED="1573111152413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/behaviorNLP/nlp" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k4Data.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/concatTxt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/getConAndBehByTK.py" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/usertag.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/roleTagRules2.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/roleTagError2.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/filterRoleTag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="186" column="57" selection-start-line="186" selection-start-column="57" selection-end-line="186" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/conditionsSmall.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/tag.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/resultRules2.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/noUseWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/conditions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/结果（规则二）.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="82" column="2" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/结果二统计.txt" />
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/结果初版本.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1971">
+          <caret line="29" column="6" selection-start-line="29" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/resultRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1060">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/roleTagError.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="14" column="7" selection-start-line="14" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/方式二结果.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/errorConditions">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/scrapy_jktk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/getRegxFromText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/roleTagRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="667" selection-start-line="667" selection-end-line="668" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/safeData/trafficRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="200" column="18" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/错误标注处理之后.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/dataFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2811">
+          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+          <folding>
+            <element signature="e#159#227#0" expanded="true" />
+            <element signature="e#788#2049#0" />
+            <element signature="e#2104#3575#0" />
+            <element signature="e#3622#9036#0" />
+            <element signature="e#9282#10588#0" />
+            <element signature="e#10637#12149#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/getConditionAndBehavior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="282" column="26" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/txtForTag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="207" column="26" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/roleTagError.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="242" column="7" selection-start-line="242" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/roleTagRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="1268" column="5" lean-forward="true" selection-start-line="1268" selection-start-column="5" selection-end-line="1268" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/resultRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1318">
+          <caret line="224" column="22" selection-start-line="224" selection-start-column="20" selection-end-line="224" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/behaviors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="184" column="19" selection-start-line="184" selection-start-column="19" selection-end-line="184" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11040" column="34" selection-start-line="11040" selection-start-column="30" selection-end-line="11040" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/conditionsTK.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="33" column="2" lean-forward="true" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/error_conditions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/errorRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/filter_key_words_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/filter_key_words_4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/safeResult/errorToRight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理之后.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="193" column="7" lean-forward="true" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/utils/error_behaviors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/方式二结果.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorRules.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/方式一结果.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4822">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/errorToRight.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2368">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4文本.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="469" lean-forward="true" selection-end-line="471" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/tkData/k1_k4Data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="470" selection-start-line="470" selection-end-line="470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/analyzeResult/tkResult/错误标注处理.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="190" column="5" lean-forward="true" selection-start-line="190" selection-start-column="5" selection-end-line="190" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/behaviorNLP/nlp/handleError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#24#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
