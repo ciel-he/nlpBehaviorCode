@@ -260,6 +260,7 @@ def getConAndBehByTK(words,roles,patternCon,patternBeh,patternNoUse):
     for i in range(len(condition_list)):
         for j in range(len(condition_list)):
             if j != i and condition_list[i] != '' and condition_list[i] in condition_list[j]:
+                print(condition_list[i] + ': 删除1')
                 clist.remove(condition_list[i])
 
     # 删除行为中重复部分
@@ -267,6 +268,7 @@ def getConAndBehByTK(words,roles,patternCon,patternBeh,patternNoUse):
     for i in range(len(phrase_list)):
         for j in range(len(phrase_list)):
             if j != i and phrase_list[i] != '' and phrase_list[i] in phrase_list[j]:
+                print(phrase_list[i] + ': 删除2')
                 plist.remove(phrase_list[i])
 
     # 判断条件词，如果是条件，就放到condition_list里面
@@ -293,11 +295,13 @@ def getConAndBehByTK(words,roles,patternCon,patternBeh,patternNoUse):
     res_clist = clist.copy()
     for item in clist:
         if len(item) == 1 or patternNoUse.search(item):
+            print(item + ': 有无效词1')
             res_clist.remove(item)
 
     res_plist = plist.copy()
     for item in plist:
         if len(item) == 1 or patternNoUse.search(item):
+            print(item + ': 有无效词2')
             res_plist.remove(item)
 
     print(res_clist, res_plist)
